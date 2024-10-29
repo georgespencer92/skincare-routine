@@ -3,9 +3,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import '../styles/globals.css'; // Make sure this contains the @font-face
 
-export default function Component() {
+export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen relative">
+    <div className={`flex flex-col min-h-screen relative ${aeonik.className}`}>
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
