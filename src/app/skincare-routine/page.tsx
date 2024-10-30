@@ -9,7 +9,7 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Loader2, ArrowLeft, Check } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import { aeonik } from '@/app/fonts'
+import { aeonik } from '../../fonts'
 
 const questions = [
   {
